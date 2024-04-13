@@ -39,7 +39,7 @@ def item_buy(id):
               secret_key='test')
     checkout = Checkout(api=api)
     data = {
-        "currency": "EUR",
+        "currency": "RUB",
         "amount": str(item.price) + "00"
     }
     url = checkout.url(data).get('checkout_url')

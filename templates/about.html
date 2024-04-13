@@ -5,8 +5,91 @@
 {% endblock %}
 
 {% block body %}
+<style>
+    .course-list-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .course-logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    .course-title {
+      font-size: 30px;
+      font-weight: bold;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+
+</style>
 <div class="container">
-    <h1>Про магазин</h1>
-    <p>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    <h1>Интернет-магазин курсов по программированию 🎓</h1>
+    <p>✅ Добро пожаловать в наш интернет-магазин! Здесь вы можете приобрести курсы по различным направлениям
+        программирования, в том числе веб-разработке, мобильной разработке, анализу данных, искусственному интеллекту и
+        многому другому.</p>
+    <p>✅ Наш магазин предлагает широкий выбор курсов от ведущих экспертов и преподавателей в индустрии. Мы стремимся
+        обеспечить высокое качество обучения и поддержки для всех наших клиентов.</p>
+    <p>✅ Не упустите возможность улучшить свои навыки и расширить свои знания в области программирования с помощью наших
+        курсов!</p>
+
+    <!-- Список курсов -->
+    <div class="course-list">
+        <div class="course-list-item">
+            <img src="https://cdnb.artstation.com/p/assets/covers/images/060/407/559/large/vahid-ghobadi-arfai-vahid-ghobadi-arfai-lo.jpg?1678483232"
+                 alt="Python" class="course-logo">
+            <span class="course-title">Python</span>
+        </div>
+        <div class="course-list">
+            <div class="course-list-item">
+                <img src="https://logocharts.com/wp-content/uploads/2021/12/Java-Logo-1600x1600.png" alt="Java"
+                     class="course-logo">
+                <span class="course-title">Java</span>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://brandlogos.net/wp-content/uploads/2022/01/c-brandlogo.net_.png" alt="C++"
+                         class="course-logo">
+                    <span class="course-title">C++</span>
+                </div>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://avatars.dzeninfra.ru/get-zen-logos/5398874/pubsuite_a2f831d7-a969-4c5e-a1b8-3ae8eab5150a_64da17e1d3af84703bc5d837/orig"
+                         alt="JavaScript" class="course-logo">
+                    <span class="course-title">JavaScript</span>
+                </div>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://habrastorage.org/getpro/habr/upload_files/5bc/f74/fe5/5bcf74fe536c57bb7355875d6931da5f.jpg"
+                         alt="PHP" class="course-logo">
+                    <span class="course-title">PHP</span>
+                </div>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://i.kzen.dev/communities/telegram/djangoid.jpg" alt="Django" class="course-logo">
+                    <span class="course-title">Django</span>
+                </div>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1449/1449313.png" alt="Data Science"
+                         class="course-logo">
+                    <span class="course-title">Data Science</span>
+                </div>
+            </div>
+            <div class="course-list-item">
+                <div class="course-list-item">
+                    <img src="https://www.vhv.rs/file/max/27/279316_gaming-png.png" alt="Game Design"
+                         class="course-logo">
+                    <span class="course-title">Game Design</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
